@@ -1,0 +1,91 @@
+<svg width="675" height="540" viewBox="0 0 1200 960"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="Inter, Arial, sans-serif">
+
+  <style>
+    .box { fill:#0f172a; stroke:#38bdf8; stroke-width:1.5; rx:12; }
+    .title { fill:#e5e7eb; font-size:16px; font-weight:600; }
+    .text { fill:#cbd5f5; font-size:13px; }
+    .arrow { stroke:#38bdf8; stroke-width:1.5; marker-end:url(#arrow); }
+  </style>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10"
+            refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#38bdf8"/>
+    </marker>
+  </defs>
+
+  <!-- Input -->
+  <rect x="400" y="30" width="400" height="80" class="box"/>
+  <text x="600" y="60" text-anchor="middle" class="title">Smart Contracts</text>
+  <text x="600" y="82" text-anchor="middle" class="text">Solidity · Single or Multiple</text>
+
+  <!-- Preprocessing -->
+  <rect x="400" y="140" width="400" height="120" class="box"/>
+  <text x="600" y="168" text-anchor="middle" class="title">Preprocessing Layer</text>
+  <text x="600" y="192" text-anchor="middle" class="text">Flattening · Version Lock</text>
+  <text x="600" y="212" text-anchor="middle" class="text">Import and Inheritance Resolution</text>
+  <text x="600" y="232" text-anchor="middle" class="text">Modifier Expansion</text>
+
+  <!-- Program Analysis -->
+  <rect x="400" y="300" width="400" height="150" class="box"/>
+  <text x="600" y="328" text-anchor="middle" class="title">Program Analysis Layer</text>
+  <text x="600" y="352" text-anchor="middle" class="text">AST · CFG · Call Graph</text>
+  <text x="600" y="372" text-anchor="middle" class="text">Storage Dependency Graph</text>
+  <text x="600" y="392" text-anchor="middle" class="text">Constraint Propagation</text>
+
+  <!-- Semantic IR -->
+  <rect x="400" y="480" width="400" height="150" class="box"/>
+  <text x="600" y="508" text-anchor="middle" class="title">Semantic Intermediate Representation</text>
+  <text x="600" y="532" text-anchor="middle" class="text">Execution Paths</text>
+  <text x="600" y="552" text-anchor="middle" class="text">Preconditions and State Transitions</text>
+  <text x="600" y="572" text-anchor="middle" class="text">External Calls and Asset Flow</text>
+
+  <!-- Vulnerability Engine -->
+  <rect x="400" y="660" width="400" height="150" class="box"/>
+  <text x="600" y="688" text-anchor="middle" class="title">Vulnerability Detection Engine</text>
+  <text x="600" y="712" text-anchor="middle" class="text">Cross-function Path Analysis</text>
+  <text x="600" y="732" text-anchor="middle" class="text">Invariant and Property Checking</text>
+  <text x="600" y="752" text-anchor="middle" class="text">Candidate Vulnerability Extraction</text>
+
+  <!-- Knowledge Base -->
+  <rect x="80" y="660" width="260" height="140" class="box"/>
+  <text x="210" y="688" text-anchor="middle" class="title">Knowledge Base</text>
+  <text x="210" y="712" text-anchor="middle" class="text">Solodit Incidents</text>
+  <text x="210" y="732" text-anchor="middle" class="text">Audit Reports</text>
+  <text x="210" y="752" text-anchor="middle" class="text">Known Exploit Patterns</text>
+
+  <!-- Semantic AI -->
+  <rect x="80" y="480" width="260" height="140" class="box"/>
+  <text x="210" y="508" text-anchor="middle" class="title">Semantic Normalization AI</text>
+  <text x="210" y="532" text-anchor="middle" class="text">Variable Canonicalization</text>
+  <text x="210" y="552" text-anchor="middle" class="text">Logic Equivalence Matching</text>
+  <text x="210" y="572" text-anchor="middle" class="text">Pattern Abstraction</text>
+
+  <!-- LLM -->
+  <rect x="840" y="660" width="280" height="140" class="box"/>
+  <text x="980" y="688" text-anchor="middle" class="title">Constrained LLM Reasoner</text>
+  <text x="980" y="712" text-anchor="middle" class="text">Exploit Feasibility Analysis</text>
+  <text x="980" y="732" text-anchor="middle" class="text">Attack Scenario Reasoning</text>
+
+  <!-- Result -->
+  <rect x="400" y="840" width="400" height="90" class="box"/>
+  <text x="600" y="870" text-anchor="middle" class="title">Result and Risk Scoring</text>
+  <text x="600" y="892" text-anchor="middle" class="text">Severity · Confidence · References</text>
+
+  <!-- Arrows -->
+  <line x1="600" y1="110" x2="600" y2="140" class="arrow"/>
+  <line x1="600" y1="260" x2="600" y2="300" class="arrow"/>
+  <line x1="600" y1="450" x2="600" y2="480" class="arrow"/>
+  <line x1="600" y1="630" x2="600" y2="660" class="arrow"/>
+  <line x1="600" y1="810" x2="600" y2="840" class="arrow"/>
+
+  <line x1="210" y1="660" x2="210" y2="620" class="arrow"/>
+  
+  <line x1="340" y1="730" x2="400" y2="730" class="arrow"/>
+  <line x1="340" y1="550" x2="400" y2="710" class="arrow"/>
+
+  <line x1="800" y1="730" x2="840" y2="730" class="arrow"/>
+
+</svg>
