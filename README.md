@@ -7,4 +7,5 @@ Independent AI-Powered Smart Contract Scanner Next-Generation Architecture · Ex
 
 ## Architecture
 
-![[architecture.svg]]
+
+![](architecture.svg)
